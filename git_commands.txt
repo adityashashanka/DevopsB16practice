@@ -1,0 +1,5 @@
+GIt
+git remote add origin https://github.com/adityashashanka/DevopsB16practice.git
+git remote -v
+git push origin master
+git pull origin master
