@@ -3,4 +3,7 @@ git remote add origin https://github.com/adityashashanka/DevopsB16practice.git
 git remote -v
 git push origin master
 git pull origin master
-git branch
+git branch -shows the number of branches amnd current working branch by putting star infront ot it
+git branch testbranch - add a new branch named test branch
+git checkcout testbranch1 -adds a testbranch to the git 
+git branch -d branchname - to delete the branch
