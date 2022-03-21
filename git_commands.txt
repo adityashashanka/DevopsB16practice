@@ -5,5 +5,9 @@ git push origin master
 git pull origin master
 git branch -shows the number of branches amnd current working branch by putting star infront ot it
 git branch testbranch - add a new branch named test branch
-git checkcout testbranch1 -adds a testbranch to the git 
+git checkcout testbranch1 - to move to that branch
 git branch -d branchname - to delete the branch
+git checkout -b newbranchname - to create a branch and move to it
+git merge slavebranch 
+git reset --hard HEAD~1 - to delete the previous commits
+git reset --hard code_of_commit_to_begoneto - to delete the commits to perticular commit

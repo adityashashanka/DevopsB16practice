@@ -11,3 +11,11 @@ provider "aws" {
   }
      
 }   
+#igw
+resource "aws_internet_gateway" "gw" {
+  vpc_id = aws_vpc.Project_terraform.id
+
+  tags = {
+    Name = "Internet_gateway"
+  }
+}
