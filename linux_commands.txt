@@ -1,0 +1,10 @@
+useradd -m linuxuser
+visudo - where you can change userconfig
+ added all "sudo no passwords" under admin all
+linuxadmin  ALL=(ALL:ALL) NOPASSWD:ALL
+su - linuxadmin
+ssh-keygen
+ git clone git@github.com:adityashashanka/DevopsB16pr --- to add the ssh link from the github after putting the public key in the Deploy keys
+/etc - where system config files lies
+/etc/passwd - where user details stays
+
